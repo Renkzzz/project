@@ -17,7 +17,7 @@ You should create one R script called run_analysis.R that does the following.
 
 1. Download and unzip the data files to your computer
 2. Load the training, test, activity labels and features data to R
-3. Run the scripts in the file run_analysis.R to generate a file "TidyData1.csv"
+3. Run the scripts in the file run_analysis.R to generate a file "TidyData1.txt"
 
 # Packages
 Install and load the reshape2 package

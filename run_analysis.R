@@ -64,7 +64,7 @@ TidyData1 <- dcast(TidyData,subjectId +activityType  ~ variable, mean)
 
 
 #creating a csv file
-write.csv(TidyData1, "TidyData1.csv")
+write.table(TidyData1, "TidyData1.txt", row.name=FALSE)
 
 
 
